@@ -1,11 +1,15 @@
 ---
 name: lightpanda
 description: 从零构建的轻量级无头浏览器，专为 AI 智能体和自动化设计，比 Headless Chrome 快 9 倍、内存占用低 16 倍，兼容 CDP 和 Playwright/Puppeteer，内置 MCP 服务器
-version: 0.1.0
+version: 0.1.1
 metadata:
-  openclaw_requires: ">=1.0.0"
-  emoji: 🐼
-  homepage: https://lightpanda.io
+  openclaw:
+    requires:
+      bins:
+        - node
+        - npx
+    emoji: 🐼
+    homepage: https://lightpanda.io
 ---
 
 # Lightpanda — 为 AI 智能体设计的极速无头浏览器
